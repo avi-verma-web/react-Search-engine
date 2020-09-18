@@ -1,0 +1,101 @@
+.searchPage_header {
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Avinash heaer logo */
+.searchPage_header > a {
+  text-decoration: none;
+}
+.searchPage_header > a > h1 {
+  font-size: 3.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 0);
+  background: linear-gradient(
+    to right,
+    rgba(0, 255, 255, 1),
+    rgba(0, 255, 255, 0.3),
+    rgba(0, 255, 255, 0)
+  );
+  margin-right: 50px;
+  width: 210px;
+}
+
+.searchPage_headerBody > .search > .search_input {
+  margin-top: 0;
+  width: unset;
+  margin: unset;
+  max-width: unset;
+}
+
+.searchPage_options {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.searchPage_optionsLeft,
+.searchPage_optionsRight {
+  display: flex;
+}
+
+.searchPage_optionsRight {
+  margin-left: 80px;
+}
+
+.searchPage_option {
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin-left: 20px;
+}
+
+.searchPage_option a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage_results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage_result {
+  margin: 40px 0;
+}
+
+.searchPage_resultCount {
+  font-size: 14px;
+  color: #70757a;
+}
+
+.searchPage_resultTitle {
+  text-decoration: none;
+}
+.searchPage_resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage_resultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPage_resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage_resultImage{
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
